@@ -5,6 +5,9 @@ import (
 )
 
 func main() {
+	// 操作数据库
+	app.Gorm()
+
 	// delete() 删除 map 中的条目
 	app.Delete()
 
