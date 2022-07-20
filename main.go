@@ -9,7 +9,7 @@ func main() {
 	app.Gorm()
 
 	// delete() 删除 map 中的条目
-	app.Delete()
+	//app.Delete()
 
 	//strings := []string{"Hello", " ", "World", "!"}
 	//
