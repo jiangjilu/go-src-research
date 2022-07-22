@@ -97,4 +97,5 @@ func createRow() {
 		},
 	}
 	db.Create(&fcl)
+
 }

@@ -1,12 +1,14 @@
 package main
 
-import (
-	"github.com/jiangjilu/go-src-research/app"
-)
+import "github.com/jiangjilu/go-src-research/app"
 
 func main() {
+	// List 操作
+	// src:container/list
+	app.List()
+
 	// 操作数据库
-	app.Gorm()
+	//app.Gorm()
 
 	// delete() 删除 map 中的条目
 	//app.Delete()
