@@ -3,9 +3,11 @@ package main
 import "github.com/jiangjilu/go-src-research/app"
 
 func main() {
+	// 发送 http 请求
+	app.Request()
+
 	// List 操作
-	// src:container/list
-	app.List()
+	//app.List()
 
 	// 操作数据库
 	//app.Gorm()
