@@ -1,10 +1,18 @@
 package main
 
-import "github.com/jiangjilu/go-src-research/app"
+import (
+	"github.com/jiangjilu/go-src-research/app"
+)
 
 func main() {
+	// pointer 指针
+	app.Pointer()
+
+	// for 循环
+	//app.For()
+
 	// 发送 http 请求
-	app.Request()
+	//app.Request()
 
 	// List 操作
 	//app.List()
