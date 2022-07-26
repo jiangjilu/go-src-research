@@ -5,8 +5,11 @@ import (
 )
 
 func main() {
+	// 函数可变参数
+	app.VarArgs("-- VarArgs --", 1, "A", []int{1, 2, 3})
+
 	// pointer 指针
-	app.Pointer()
+	//app.Pointer()
 
 	// for 循环
 	//app.For()
