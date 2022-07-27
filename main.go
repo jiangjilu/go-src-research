@@ -1,12 +1,13 @@
 package main
 
-import (
-	"github.com/jiangjilu/go-src-research/app"
-)
+import "github.com/jiangjilu/go-src-research/app"
 
 func main() {
+	// iota 常量计数器
+	app.Iota()
+
 	// 函数可变参数
-	app.VarArgs("-- VarArgs --", 1, "A", []int{1, 2, 3})
+	//app.VarArgs("-- VarArgs --", 1, "A", []int{1, 2, 3})
 
 	// pointer 指针
 	//app.Pointer()
