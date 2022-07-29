@@ -3,8 +3,11 @@ package main
 import "github.com/jiangjilu/go-src-research/app"
 
 func main() {
+	// html/Template 模板
+	app.TextTemplate()
+
 	// iota 常量计数器
-	app.Iota()
+	//app.Iota()
 
 	// 函数可变参数
 	//app.VarArgs("-- VarArgs --", 1, "A", []int{1, 2, 3})
