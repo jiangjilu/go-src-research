@@ -3,8 +3,11 @@ package main
 import "github.com/jiangjilu/go-src-research/app"
 
 func main() {
+	//解析json格式字符串
+	app.Json()
+
 	// html/Template 模板
-	app.TextTemplate()
+	//app.TextTemplate()
 
 	// iota 常量计数器
 	//app.Iota()
