@@ -7,25 +7,25 @@ func main() {
 	app.Json()
 
 	// html/Template 模板
-	//app.TextTemplate()
+	app.TextTemplate()
 
 	// iota 常量计数器
-	//app.Iota()
+	app.Iota()
 
 	// 函数可变参数
-	//app.VarArgs("-- VarArgs --", 1, "A", []int{1, 2, 3})
+	app.VarArgs("-- VarArgs --", 1, "A", []int{1, 2, 3})
 
 	// pointer 指针
-	//app.Pointer()
+	app.Pointer()
 
 	// for 循环
-	//app.For()
+	app.For()
 
 	// 发送 http 请求
-	//app.Request()
+	app.Request()
 
 	// List 操作
-	//app.List()
+	app.List()
 
 	// 操作数据库
 	//app.Gorm()
