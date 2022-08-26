@@ -3,6 +3,9 @@ package main
 import "github.com/jiangjilu/go-src-research/app"
 
 func main() {
+	// 大括号{}代码块
+	app.Block()
+
 	//解析json格式字符串
 	app.Json()
 

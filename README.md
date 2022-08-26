@@ -9,6 +9,7 @@
 - [app](app) 功能列表
 - - [args.go](app/args.go) - 函数可变参数
 - - [for.go](app/for.go) - for 循环
+- - [block.go](app/block.go) - {} 大括号代码块以及其作用域
 - - [gorm.go](app/gorm.go) - 使用Gorm操作数据库
 - - [iota.go](app/iota.go) - iota 常量计数器
 - - [json.go](app/json.go) - 解析json格式字符串
